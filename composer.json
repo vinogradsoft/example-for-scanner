@@ -1,0 +1,29 @@
+{
+  "name": "vinogradsoft/example-for-scanner",
+  "description": "An example of using the vinogradsoft/scanner library.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grigor",
+      "email": "cmk.cmyk@mail.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Example\\": [
+        "src/"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "vinogradsoft/scanner": "^2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

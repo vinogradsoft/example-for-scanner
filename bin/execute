@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+declare(strict_types=1);
+
+require_once dirname(__DIR__, 1) . '/vendor/autoload.php';
+$config = require dirname(__DIR__, 1) . '/config/config.php';
+
+if (PHP_SAPI !== 'cli') exit(1);
+
+(new \Example\Application())->run($config);
